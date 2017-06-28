@@ -1,0 +1,276 @@
+.notReclamatedBlock {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow: hidden;
+  border: 9px solid #e5e5e5;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  padding: 50px 25px 25px;
+  max-width: 980px;
+  width: 100%;
+  margin: 0 auto;
+}
+.notReclamatedBlock * {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.notReclamatedBlock .notReclamatedTitle {
+  font: 15px/15px 'LucidaGrande';
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+.notReclamatedBlock .notReclamatedTable {
+  width: 100%;
+  font: 12px/14px 'Arial';
+  border-collapse: collapse;
+}
+.notReclamatedBlock .notReclamatedTable tr {
+  border-collapse: collapse;
+}
+.notReclamatedBlock .notReclamatedTable tr th,
+.notReclamatedBlock .notReclamatedTable tr td {
+  padding: 12px 0;
+}
+.notReclamatedBlock .notReclamatedTable tr th:nth-child(2),
+.notReclamatedBlock .notReclamatedTable tr td:nth-child(2),
+.notReclamatedBlock .notReclamatedTable tr th:nth-child(3),
+.notReclamatedBlock .notReclamatedTable tr td:nth-child(3) {
+  text-align: left;
+}
+.notReclamatedBlock .notReclamatedTable tr th:nth-child(4),
+.notReclamatedBlock .notReclamatedTable tr td:nth-child(4),
+.notReclamatedBlock .notReclamatedTable tr th:nth-child(5),
+.notReclamatedBlock .notReclamatedTable tr td:nth-child(5) {
+  text-align: center;
+}
+.notReclamatedBlock .notReclamatedTable tr th:nth-child(1),
+.notReclamatedBlock .notReclamatedTable tr td:nth-child(1) {
+  width: 35px;
+  text-align: center;
+}
+.notReclamatedBlock .notReclamatedTable tr th:nth-child(2),
+.notReclamatedBlock .notReclamatedTable tr td:nth-child(2) {
+  width: 135px;
+}
+.notReclamatedBlock .notReclamatedTable tr th:nth-child(5),
+.notReclamatedBlock .notReclamatedTable tr td:nth-child(5) {
+  width: 100px;
+}
+.notReclamatedBlock .notReclamatedTable tr th {
+  color: #928d8a;
+  font-weight: normal;
+}
+.notReclamatedBlock .notReclamatedTable tr td {
+  color: #000000;
+  border-top: 1px solid #cfcfcf;
+  border-bottom: 1px solid #cfcfcf;
+  border-collapse: collapse;
+}
+.notReclamatedBlock .notReclamatedTable tr td:nth-child(1) {
+  border-left: 1px solid #cfcfcf;
+}
+.notReclamatedBlock .notReclamatedTable tr td:nth-child(5) {
+  border-right: 1px solid #cfcfcf;
+}
+.notReclamatedBlock .notReclamatedTable a {
+  color: #204073;
+  text-decoration: none;
+}
+.notReclamatedBlock .notReclamatedTable .moreSelectInput {
+  display: inline-block;
+  vertical-align: middle;
+  width: 60px;
+  padding: 0 15px;
+  border: 1px solid #e5e5e5;
+  margin: 0 10px;
+  height: 20px;
+  position: relative;
+}
+.notReclamatedBlock .notReclamatedTable .moreSelectInput input {
+  width: 30px;
+  border: none;
+  text-align: center;
+  outline: none;
+  background: #ffffff;
+  color: #000;
+}
+.notReclamatedBlock .notReclamatedTable .moreSelectInput span {
+  display: block;
+  position: absolute;
+  top: 0;
+  height: 18px;
+  width: 15px;
+}
+.notReclamatedBlock .notReclamatedTable .moreSelectInput span.prev {
+  left: 0;
+  background: url("../img/prev-arrow.png") no-repeat center center;
+}
+.notReclamatedBlock .notReclamatedTable .moreSelectInput span.next {
+  right: 0;
+  background: url("../img/next-arrow.png") no-repeat center center;
+}
+.notReclamatedBlock .notReclamatedTextArea {
+  margin-top: 15px;
+  width: 100%;
+}
+.notReclamatedBlock .notReclamatedTextArea textarea {
+  width: 100%;
+  height: 105px;
+  outline: none;
+  resize: none;
+  border: 1px solid #cfcfcf;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 3px;
+}
+.notReclamatedBlock .notReclamatedTextArea.largeTextArea {
+  width: 60%;
+  float: left;
+  padding-right: 15px;
+}
+.notReclamatedBlock .notReclamatedTextArea.largeTextArea textarea {
+  height: 95px;
+  margin-bottom: 0;
+}
+.notReclamatedBlock .forSelectBlock {
+  width: 40%;
+  float: left;
+  margin-top: 15px;
+}
+.notReclamatedBlock .forSelectBlock select {
+  width: 100%;
+  height: 40px;
+  outline: none;
+  border: 1px solid #cfcfcf;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  padding: 0 30px 0 10px;
+  position: relative;
+  background: url("../img/select.png") no-repeat right center;
+  background-size: auto 100%;
+  -webkit-background-size: auto 100%;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  appearance: none!important;
+  -moz-appearance: none;
+  margin-bottom: 15px;
+}
+.notReclamatedBlock .forSelectBlock select::-ms-expand {
+  display: none;
+}
+.notReclamatedBlock .forSelectBlock.largeForSelectBlock {
+  width: 100%;
+}
+.notReclamatedBlock .forSelectBlock.largeForSelectBlock select {
+  width: calc(100% - 170px);
+}
+.notReclamatedBlock .fileButton {
+  float: left;
+}
+.notReclamatedBlock .submitButton {
+  height: 40px;
+  float: right;
+  background: #ffe001;
+  font: 16px 'LucidaGrande';
+  color: #000;
+  text-transform: uppercase;
+  text-align: center;
+  width: 160px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.notReclamatedBlock .reclamatedBlock {
+  margin-top: 15px;
+  width: 100%;
+  float: left;
+}
+.notReclamatedBlock .reclamatedBlock .notReclamatedTitle {
+  margin-bottom: 5px;
+}
+.notReclamatedBlock .reclamatedTable {
+  width: 100%;
+  font: 12px/14px 'Arial';
+  border-collapse: collapse;
+}
+.notReclamatedBlock .reclamatedTable tr {
+  border-collapse: collapse;
+}
+.notReclamatedBlock .reclamatedTable tr th,
+.notReclamatedBlock .reclamatedTable tr td {
+  text-align: left;
+  padding: 12px 0;
+}
+.notReclamatedBlock .reclamatedTable tr th:nth-child(1),
+.notReclamatedBlock .reclamatedTable tr td:nth-child(1) {
+  width: 50px;
+  text-align: center;
+}
+.notReclamatedBlock .reclamatedTable tr th {
+  color: #928d8a;
+  font-weight: normal;
+}
+.notReclamatedBlock .reclamatedTable tr td {
+  color: #c30202;
+  border-top: 1px solid #cfcfcf;
+  border-bottom: 1px solid #cfcfcf;
+  border-collapse: collapse;
+}
+.notReclamatedBlock .reclamatedTable tr td:nth-child(1) {
+  border-left: 1px solid #cfcfcf;
+}
+.notReclamatedBlock .reclamatedTable tr td:nth-child(4) {
+  border-right: 1px solid #cfcfcf;
+}
+.notReclamatedBlock .reclamatedTable a {
+  color: #204073;
+  text-decoration: none;
+}
+.modalWrapper {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 999;
+  display: none;
+}
+.modalWrapper .modalOverlay {
+  background: #f9f9f9;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0.78;
+}
+.modalWrapper .modalContent {
+  width: 575px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 2;
+  background: #ffffff;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.modalWrapper .modalContent .modalClose {
+  position: absolute;
+  right: 19px;
+  top: 19px;
+  z-index: 2;
+  cursor: pointer;
+}
